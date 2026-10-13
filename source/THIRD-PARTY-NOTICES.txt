@@ -1,0 +1,13 @@
+CremaTools uses open-source components. Their licenses remain applicable.
+
+.NET / WPF - Microsoft - MIT: https://github.com/dotnet/wpf
+Magick.NET / ImageMagick - Dirk Lemstra and ImageMagick Studio - Apache 2.0 / ImageMagick License: https://github.com/dlemstra/Magick.NET
+Magick.NET native libraries include libheif, x265 and other codecs; see the third-party notices and licenses distributed by Magick.NET: https://github.com/dlemstra/Magick.NET/tree/main/docs
+PDFtoImage - sungaila - MIT: https://github.com/sungaila/PDFtoImage
+PDFium - BSD-style: https://pdfium.googlesource.com/pdfium/+/main/LICENSE
+SkiaSharp / Skia - MIT / BSD-style: https://github.com/mono/SkiaSharp
+PDFsharp - empira - MIT: https://github.com/empira/PDFsharp
+7-Zip / 7zr - Igor Pavlov - see assets/7zip-license.txt, https://www.7-zip.org/license.txt
+Windows OCR is provided by the operating system; availability depends on installed language packs.
+
+No RAR archive creation is provided. ZIP and 7z are supported.

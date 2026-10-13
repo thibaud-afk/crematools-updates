@@ -1,0 +1,51 @@
+CrémaTools 1.0 - CremaLab
+Offert avec plaisir par Thibaud CREMADES
+
+INSTALLER
+Lancez CremaTools Setup 1.0.0.exe. Windows 10/11 x64.
+Aucun compte en ligne, Node.js ou Python n'est nécessaire.
+L'installateur n'a pas de certificat d'éditeur ; Windows peut demander une confirmation.
+Désinstaller : Paramètres Windows > Applications > CrémaTools,
+ou menu Démarrer > CrémaTools > Désinstaller CrémaTools.
+La désinstallation conserve les données et coffres locaux pour éviter de perdre vos papiers.
+
+LES OUTILS
+Convertir : JPEG, PNG, WebP, HEIC, TIFF, BMP, AVIF, images vers PDF,
+PDF vers images et réunion de plusieurs PDF. HEIC fonctionne dans les deux sens.
+Les images animées et documents image multipages sont lus sur leur première image.
+Compresser : réduire les images ou PDF, créer des archives ZIP ou 7z.
+RAR n'est pas proposé en création. Une archive ne réduit pas forcément des images déjà compressées.
+PDF sans perte : le gain dépend du fichier ; si le résultat est plus lourd, une copie du fichier initial est conservée.
+PDF fortement réduit : les pages deviennent des images ; texte, formulaires et signatures numériques ne sont pas conservés dans la copie.
+Renommer : modèle France {n}, {nom}, {date}, compteur 001, aperçu obligatoire,
+classement par extension ou année. Annulation de la dernière opération avec contrôle d'intégrité.
+Scanner : images et PDF vers texte, Word (.docx) ou PDF recherchable.
+Les langues OCR doivent être installées dans Windows ; le français est proposé s'il est disponible.
+Le Word contient le texte reconnu, pas la mise en page exacte. Relisez noms, dates et montants.
+Les originaux restent conservés dans les modules de conversion, compression et scanner.
+
+COFFRE
+Chaque personne crée un profil local et une phrase secrète de 12 caractères minimum.
+Gardez la clé de récupération séparément : elle donne accès à tous les documents.
+Sans phrase secrète ni clé de récupération, les documents ne peuvent pas être retrouvés.
+Documents et noms de fichiers sont chiffrés. Catégories personnalisables.
+100 Mo maximum par document. Aperçu en mémoire pour images, PDF et texte.
+Les originaux importés ne sont pas supprimés ni chiffrés à leur emplacement initial.
+Une copie exportée est un fichier normal, non protégé par le coffre.
+Sauvegarder le coffre crée un fichier .cremavault chiffré, restaurable sur un autre PC.
+Conservez une sauvegarde sur un autre support. Le cloud automatique n'est pas encore intégré.
+Le coffre n'a pas fait l'objet d'un audit de sécurité indépendant.
+
+MISES A JOUR
+Un espace de mise à jour dédié est configuré. La vérification est automatique au démarrage.
+Les nouvelles versions sont téléchargées et contrôlées ; l'installation se fait à la fermeture.
+Le bouton Mises à jour permet de vérifier ou d'installer immédiatement.
+L'adresse du service peut être changée ; le manifeste doit toujours être signé par la clé CrémaTools.
+Les fichiers et coffres ne sont jamais envoyés au service de mise à jour.
+
+DONNEES LOCALES
+%LOCALAPPDATA%\CremaTools\Vaults : coffres chiffrés.
+%LOCALAPPDATA%\CremaTools : réglages et journal du dernier classement.
+
+LICENCES
+Voir THIRD-PARTY-NOTICES.txt et les licences des outils embarqués.

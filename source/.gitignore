@@ -1,0 +1,15 @@
+tools/*
+!tools/fetch-heif.py
+!tools/package-native-sources.py
+!tools/sign-release.cjs
+.nuget/
+bin/
+obj/
+publish/
+release/
+distribution/
+assets/heif/
+assets/7zr.exe
+test-results/
+*.user
+*.log

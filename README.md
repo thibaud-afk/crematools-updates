@@ -50,7 +50,13 @@ Les documents et coffres ne sont jamais envoyés au service de mise à jour.
 Paramètres Windows → Applications → CrémaTools, ou menu Démarrer → CrémaTools → Désinstaller CrémaTools.
 Les coffres et réglages locaux sont conservés pour éviter la perte de documents. La désinstallation ne supprime que les fichiers installés par le logiciel.
 
-## Composants tiers
+## Sources et contributions
+
+**[Le code source est public ici](source/README.md)**, avec un guide de compilation et des tests. Il est proposé sous [licence MIT](LICENSE). Les améliorations et retours sont les bienvenus dans les Issues et Pull Requests. Ne publiez jamais de document personnel ou de clé du coffre dans une issue.
+
+Les sources ne contiennent ni coffre utilisateur, ni clé privée de mise à jour. Les outils nécessaires pour compiler sont distincts du logiciel installé : les utilisateurs téléchargent simplement l'installateur.
+
+## Licences tierces
 
 Les licences sont fournies dans le logiciel. Les sources correspondantes du moteur HEIC et de ses bibliothèques sont disponibles dans les fichiers de la Release (`CremaTools-native-sources.zip`). Les outils embarqués restent sous leurs licences respectives.
 
